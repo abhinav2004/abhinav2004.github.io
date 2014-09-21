@@ -1,11 +1,11 @@
 
-http://username.github.io/archive.html
-http://username.github.io/atom.xml
-http://username.github.io/categories.html
-http://username.github.io/index.html
-http://username.github.io/pages.html
-http://username.github.io/rss.xml
-http://username.github.io/sitemap.txt
-http://username.github.io/tags.html
+http://www.abhinavh.com/archive.html
+http://www.abhinavh.com/atom.xml
+http://www.abhinavh.com/categories.html
+http://www.abhinavh.com/index.html
+http://www.abhinavh.com/pages.html
+http://www.abhinavh.com/rss.xml
+http://www.abhinavh.com/sitemap.txt
+http://www.abhinavh.com/tags.html
 
-http://username.github.io/welcome/2014/09/21/first-post-welcome-to-my-blog
+http://www.abhinavh.com/welcome/2014/09/21/first-post-welcome-to-my-blog

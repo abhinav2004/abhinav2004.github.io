@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Abhinav's Blog</title>
- <link href="http://username.github.io/" rel="self"/>
- <link href="http://username.github.io"/>
- <updated>2014-09-21T12:02:47+05:30</updated>
- <id>http://username.github.io</id>
+ <link href="http://www.abhinavh.com/" rel="self"/>
+ <link href="http://www.abhinavh.com"/>
+ <updated>2014-09-21T12:32:19+05:30</updated>
+ <id>http://www.abhinavh.com</id>
  <author>
    <name>Abhinav Hardikar</name>
    <email>ahardyx@gmail.com</email>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>First Post! Welcome to my Blog.</title>
-   <link href="http://username.github.io/welcome/2014/09/21/first-post-welcome-to-my-blog"/>
+   <link href="http://www.abhinavh.com/welcome/2014/09/21/first-post-welcome-to-my-blog"/>
    <updated>2014-09-21T00:00:00+05:30</updated>
-   <id>http://username.github.io/welcome/2014/09/21/first-post-welcome-to-my-blog</id>
+   <id>http://www.abhinavh.com/welcome/2014/09/21/first-post-welcome-to-my-blog</id>
    <content type="html">
 &lt;p&gt;Hi! I am Abhinav, a programmer and tech enthusiast. Programming is my passion and a driving force to improve myself. I have set up this blog using Jekyll and Bootstrap and I must say, I prefer this system over Wordpress. &lt;/p&gt;
 
