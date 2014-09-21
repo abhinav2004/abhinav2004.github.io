@@ -14,7 +14,7 @@ author :
   name : Abhinav Hardikar
   email : ahardyx@gmail.com
   github : abhinav2004
-  twitter : username
+  twitter : abhinav2004
   feedburner : abhinav2004
 
 # The production_url is only used when full-domain names are needed
@@ -26,6 +26,10 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : http://username.github.io
+
+# Pagination (added this line)
+paginate: 2
+paginate_path: "/page:num"
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -82,11 +86,11 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
+      short_name : abhinavsblog
     livefyre :
       site_id : 123
     intensedebate :
-      account : 123abc
+      account : 123
     facebook :
       appid : 123
       num_posts: 5
