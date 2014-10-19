@@ -6,7 +6,7 @@ category: welcome
 tags: [first, post, welcome]
 ---
 {% include JB/setup %}
-Hi! I am Abhinav, a programmer and tech enthusiast. Programming is my passion and a driving force to improve myself. I have set up this blog using Jekyll and Bootstrap and I must say, I prefer this system over Wordpress. 
+Hi! I am Abhinav, a programmer and tech enthusiast. Programming is my passion and a driving force to improve myself. I havec set up this blog using Jekyll and Bootstrap and I must say, I prefer this system over Wordpress. 
 
 The first advantage of this system is automatic backup. Well, not exactly automatic but more like you make a post on your pc and then upload it to the site. So a copy of the site is always present on your computer. 
 

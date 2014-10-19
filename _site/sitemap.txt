@@ -8,4 +8,5 @@ http://www.abhinavh.com/rss.xml
 http://www.abhinavh.com/sitemap.txt
 http://www.abhinavh.com/tags.html
 
+http://www.abhinavh.com/2014/09/28/why-is-it-better-to-learn-more-languages
 http://www.abhinavh.com/welcome/2014/09/21/first-post-welcome-to-my-blog

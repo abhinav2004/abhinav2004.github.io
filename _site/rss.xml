@@ -5,15 +5,46 @@
         <description>Abhinav's Blog - Abhinav Hardikar</description>
         <link>http://www.abhinavh.com</link>
         <link>http://www.abhinavh.com</link>
-        <lastBuildDate>2014-09-21T18:59:12+05:30</lastBuildDate>
-        <pubDate>2014-09-21T18:59:12+05:30</pubDate>
+        <lastBuildDate>2014-10-19T22:14:00+05:30</lastBuildDate>
+        <pubDate>2014-10-19T22:14:00+05:30</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
+                <title>Why is it better to learn more languages?</title>
+                <description>
+&lt;p&gt;I have worked in Java for about 7 years and doing the same thing over and over does make the experience boring; a change in interest was inevitable. I have tried multiple programming languages like C, C++, Scala, Python and Ruby but I couldn&#39;t find a single language with a philosophy of &quot;Compile once, run everywhere&quot;, and now even java does not follow that any more. We&#39;ll discuss about this in a later rant.&lt;/p&gt;
+
+&lt;p&gt;I am so used to this philosphy of programming. But generally, a person does not get what he wants; most of the times. This is one of those cases. You have to work with what you have.&lt;/p&gt;
+
+&lt;p&gt;Having little experience with the so called &quot;IT Industry&quot;, I can say one thing. You will never - or rather most of the times - get to work with the language you like. The company where I am working as an intern uses C# and the .NET framework. C# is one of the better programming languages and is quite like java; but .NET framework is terrible. I hate their APIs and documentations. More over, the company has forced us to use only WinForms making the .NET experience even worse. And I am a Java programmer. :(&lt;/p&gt;
+
+&lt;p&gt;But, can I do anything about this issue? As programmers, we need to ask this question to ourselves. Once we commit to a company and their choice of language, it is difficult to persuade them to use any other language. And that&#39;s pretty obvious. So we are left with two choices.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Find a job which uses the language you like.&lt;/li&gt;
+&lt;li&gt;Learn more languages and get used to them.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Option 1 sounds quite easy doesn&#39;t it. But doesn&#39;t that reduce your options while searching for a job. Say for example you know only Go Language. How many companies are there which want Go programmers. It just makes your life difficult.&lt;/p&gt;
+
+&lt;p&gt;As long as you don&#39;t want a difficult life, the only option left is to learn more languages. But there are so many languages! How many should one learn you might ask. I have only one answer to that. It totally depends on your capacity. Try to learn as many you can. Learning doesn&#39;t hurt but does take time. But you know; you will realise, while learning these languages, that your learning speed is increasing exponentially. That&#39;s because most of the language structures (not syntaxes) are very similar. Once you know that common stuff, learning other languages becomes easy.&lt;/p&gt;
+
+&lt;p&gt;Learning more languages increases your field of view and opportunities to get a good job.&lt;/p&gt;
+
+&lt;p&gt;There you go. That&#39;s the answer to why is it better to learn more languages. Hope you enjoyed it and stay tuned for more.&lt;/p&gt;
+
+&lt;p&gt;Signing off.&lt;/p&gt;
+</description>
+                <link>http://www.abhinavh.com/2014/09/28/why-is-it-better-to-learn-more-languages</link>
+                <guid>http://www.abhinavh.com/2014/09/28/why-is-it-better-to-learn-more-languages</guid>
+                <pubDate>2014-09-28T00:00:00+05:30</pubDate>
+        </item>
+
+        <item>
                 <title>First Post! Welcome to my Blog.</title>
                 <description>
-&lt;p&gt;Hi! I am Abhinav, a programmer and tech enthusiast. Programming is my passion and a driving force to improve myself. I have set up this blog using Jekyll and Bootstrap and I must say, I prefer this system over Wordpress. &lt;/p&gt;
+&lt;p&gt;Hi! I am Abhinav, a programmer and tech enthusiast. Programming is my passion and a driving force to improve myself. I havec set up this blog using Jekyll and Bootstrap and I must say, I prefer this system over Wordpress. &lt;/p&gt;
 
 &lt;p&gt;The first advantage of this system is automatic backup. Well, not exactly automatic but more like you make a post on your pc and then upload it to the site. So a copy of the site is always present on your computer. &lt;/p&gt;
 
