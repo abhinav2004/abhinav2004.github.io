@@ -2,7 +2,7 @@
 layout: post
 title: "First Post! Welcome to my Blog."
 description: ""
-category: welcome
+category: Welcome
 tags: [first, post, welcome]
 ---
 {% include JB/setup %}

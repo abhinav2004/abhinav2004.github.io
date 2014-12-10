@@ -2,7 +2,7 @@
 layout: post
 title: "Why is it better to learn more languages?"
 description: ""
-category: 
+category: Deep Thoughts
 tags: [java, python, c, c++, scala, change]
 ---
 {% include JB/setup %}
