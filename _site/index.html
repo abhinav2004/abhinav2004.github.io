@@ -19,15 +19,24 @@
 	<header class="the-header">
 		<div class="unit-head">
 			<div class="unit-inner unit-head-inner">
+                <div class="smartphone_headerbar">
+                    <button type="button" onclick="shownav()"></button>
+                    <script>
+                        function shownav() {
+                            var a = document.getElementsByClassName("nav-global")[0];
+                            if (a.style.visibility=='visible')
+                                a.style.visibility='hidden';
+                            else
+                                a.style.visibility='visible';
+                        }
+                    </script>
+                </div>
 				<nav class="nav-global">
 					<ul>
-						<li class="logo"><a href="/">Abhinav's Blog</a></li>
 						<li class="archive"><a href="/archive.html">archive</a></li>
 						<li class="page"><a href="/pages.html">pages</a></li>
 						<li class="category"><a href="/categories.html">categories</a></li>
 						<li class="tag"><a href="/tags.html">tags</a></li>
-						<li class="forkme"><div><iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=plusjade&repo=jekyll-bootstrap&type=fork&count=true"
-									allowtransparency="true" frameborder="0" scrolling="0" width="95px" height="20px"></iframe></div></li>
 					</ul>
 				</nav>
 			</div><!-- unit-inner -->
@@ -56,13 +65,13 @@
 <ul class="posts">
       
       <li>
-        <span class="post_title"><a href="/2014/09/28/why-is-it-better-to-learn-more-languages">Why is it better to learn more languages?</a></span><br/>
+        <span class="post_title"><a href="/deep%20thoughts/2014/09/28/why-is-it-better-to-learn-more-languages">Why is it better to learn more languages?</a></span><br/>
         <span class="small">28 Sep 2014</span> &raquo; 
       </li>
       <div class="post_excerpt">
       <p>I have worked in Java for about 7 years and doing the same thing over and over does make the experience boring; a change in interest was inevitable. I have tried multiple programming languages like C, C++, Scala, Python and Ruby but I couldn't find a single language with a philosophy of "Compile once, run everywhere", and now even java does not follow that any more. We'll discuss about this in a later rant.</p> <p>I...
       </div>
-      <a href="/2014/09/28/why-is-it-better-to-learn-more-languages">Read more...</a><br><br>
+      <a href="/deep%20thoughts/2014/09/28/why-is-it-better-to-learn-more-languages">Read more...</a><br><br>
       
       <li>
         <span class="post_title"><a href="/welcome/2014/09/21/first-post-welcome-to-my-blog">First Post! Welcome to my Blog.</a></span><br/>

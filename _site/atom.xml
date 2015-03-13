@@ -4,7 +4,7 @@
  <title>Abhinav's Blog</title>
  <link href="http://www.abhinavh.com/" rel="self"/>
  <link href="http://www.abhinavh.com"/>
- <updated>2014-10-19T22:14:00+05:30</updated>
+ <updated>2015-03-13T21:21:36+05:30</updated>
  <id>http://www.abhinavh.com</id>
  <author>
    <name>Abhinav Hardikar</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Why is it better to learn more languages?</title>
-   <link href="http://www.abhinavh.com/2014/09/28/why-is-it-better-to-learn-more-languages"/>
+   <link href="http://www.abhinavh.com/deep%20thoughts/2014/09/28/why-is-it-better-to-learn-more-languages"/>
    <updated>2014-09-28T00:00:00+05:30</updated>
-   <id>http://www.abhinavh.com/2014/09/28/why-is-it-better-to-learn-more-languages</id>
+   <id>http://www.abhinavh.com/deep%20thoughts/2014/09/28/why-is-it-better-to-learn-more-languages</id>
    <content type="html">
 &lt;p&gt;I have worked in Java for about 7 years and doing the same thing over and over does make the experience boring; a change in interest was inevitable. I have tried multiple programming languages like C, C++, Scala, Python and Ruby but I couldn&#39;t find a single language with a philosophy of &quot;Compile once, run everywhere&quot;, and now even java does not follow that any more. We&#39;ll discuss about this in a later rant.&lt;/p&gt;
 
