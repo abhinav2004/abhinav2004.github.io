@@ -553,7 +553,7 @@ html {
   background: url('/assets/themes/the-program/skin/100-90-5-monochrome.png');
   background-repeat: repeat;
   background-position: 0 0;
-  background-color: #e2e2de;
+  background-color: rgb(247, 241, 233);
 }
 .body .unit-body {
   background-color: #fafafa;
@@ -912,8 +912,8 @@ pre {
   border: 0;
 }
 .the-footer ul {
-  list-style: square;
-  padding-left: 1em;
+  list-style: none;
+  padding-left: 0em;;
 }
 .the-footer address {
   font-style: normal;
@@ -987,6 +987,7 @@ pre {
     display: block;
     overflow: hidden;
     margin-top: -37px;
+      visibility: visible;
 }
     
   .smartphone_headerbar {
