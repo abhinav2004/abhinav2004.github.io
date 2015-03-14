@@ -21,13 +21,15 @@
 			<div class="unit-inner unit-head-inner">
                 <div class="smartphone_headerbar">
                     <button type="button" onclick="shownav()"></button>
+                    <span class="smartphone_title"><b>Abhinav's Blog</b></span>
                     <script>
                         function shownav() {
                             var a = document.getElementsByClassName("nav-global")[0];
-                            if (a.style.visibility=='visible')
-                                a.style.visibility='hidden';
+                            if (a.className == "nav-global")
+                                a.className = "nav-global shown";
                             else
-                                a.style.visibility='visible';
+                                a.className = "nav-global";
+                            
                         }
                     </script>
                 </div>

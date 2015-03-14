@@ -596,6 +596,12 @@ pre {
     height: 0px;
 }
 
+.smartphone_title {
+     width: 0px;
+    height: 0px;
+    visibility: hidden;
+}
+
 .smartphone_headerbar button {
   outline: 0;
   background: url('../skin/nav.png');
@@ -617,7 +623,7 @@ pre {
 .the-header .nav-global {
   text-transform: uppercase;
   position: fixed;
-  background: green;
+  background: darkgreen;
   width: 100%;
   box-shadow: #aaa 0px 2px 2px;
 }
@@ -971,11 +977,23 @@ pre {
     max-width: 100%;
   }
 
+  .smartphone_title {
+    color: white;
+  
+    width: 100%;
+    text-align: center;
+    height: 48px;
+    font-size: 24px;
+    display: block;
+    overflow: hidden;
+    margin-top: -37px;
+}
+    
   .smartphone_headerbar {
     height: 48px;
   
     position: fixed;
-    background:  green;
+    background: darkgreen;
     width: 100%;
     box-shadow: #aaa 0px 2px 2px;
     overflow: visible;
@@ -994,14 +1012,15 @@ pre {
   .the-header .nav-global {
     margin-top: 48px;
     text-transform: uppercase;
-    background: green;
+    background: darkgreen;
     width: 200px;
-    box-shadow: #aaa 0px 2px 2px;
+    box-shadow: #aaa 2px 2px 2px;
     position: fixed;
     height: 100%;
     overflow: hidden;
-    opacity: 0.9;
-  
+    /* opacity: 0.9; */
+    -webkit-animation: slide 1s forwards;
+  animation: slide 1s forwards;
     visibility: hidden;
 }
 
@@ -1026,6 +1045,14 @@ pre {
   padding: 64px 26px;
   box-shadow: 0px 0px 6px #333;
   margin: 0;
+}
+
+  @-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
 }
 }
 /*
@@ -1503,6 +1530,10 @@ No styleguide reference.
 .hidden {
   display: none !important;
   visibility: hidden;
+}
+
+.shown {
+    visibility: visible !important;
 }
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
 .visuallyhidden {
