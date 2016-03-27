@@ -1,156 +1,97 @@
 
-<!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 ie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9 ie" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<title>Blog Posts</title>
-	<meta name="author" content="Abhinav Hardikar">
-	<link href='/assets/themes/the-program/css/style.css' rel="stylesheet" media="all">
-	<link href="http://feeds.feedburner.com/" rel="alternate" title="Blog Posts" type="application/atom+xml">
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.0.6/modernizr.min.js"></script>
-</head>
-<body>
-
-<div id="page" class="hentry">
-	<header class="the-header">
-		<div class="unit-head">
-			<div class="unit-inner unit-head-inner">
-                <div class="smartphone_headerbar">
-                    <button type="button" onclick="shownav()"></button>
-                    <span class="smartphone_title"><b>Abhinav's Blog</b></span>
-                    <script>
-                        function shownav() {
-                            var a = document.getElementsByClassName("nav-global")[0];
-                            if (a.className == "nav-global")
-                                a.className = "nav-global shown";
-                            else
-                                a.className = "nav-global";
-                            
-                        }
-                    </script>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="/assets/themes/semantic/css/semantic.min.css"></link>
+        <link rel="stylesheet" type="text/css" href="/assets/themes/semantic/css/style.css"></link>
+        <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
+        <script src="/assets/themes/semantic/js/semantic.min.js"></script>
+        <script>
+            $(document).on("ready", () => {
+                $('.ui.dropdown').dropdown();
+            });            
+        </script>
+    </head>
+    <body>        
+        <div class="header-bar ui container">
+    <div class="ui grid">
+        <div class="four wide column title" onclick="location.href='/'">
+            Abhinav Hardikar
+        </div>    
+        <div class="twelve wide column"> 
+            <div class ="ui menu">
+                <a class="item" href="/pages/about-me.html">About me</a>
+                <div class="ui dropdown item">Contact me
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                        <a class="item" href="https://www.twitter.com/abhinav2004"><i class="twitter icon"></i>Twitter</a>
+                        <a class="item" href="https://www.linkedin.com/in/abhinav-hardikar-86a05059"><i class="linkedin icon"></i>LinkedIn</a>
+                        <a class="item" href="https://plus.google.com/+AbhinavHardikar"><i class="google plus icon"></i>Google+</a>
+                        <a class="item" href="https://www.github.com/abhinav2004"><i class="github icon"></i>Github</a>
+                    </div>
                 </div>
-				<nav class="nav-global">
-					<ul>
-						<li class="archive"><a href="/archive.html">archive</a></li>
-						<li class="page"><a href="/pages.html">pages</a></li>
-						<li class="category"><a href="/categories.html">categories</a></li>
-						<li class="tag"><a href="/tags.html">tags</a></li>
-					</ul>
-				</nav>
-			</div><!-- unit-inner -->
-		</div><!-- unit-head -->
-	</header>
-	<div class="body" role="main">
-		<div class="unit-body">
-			<div class="unit-inner unit-body-inner">
-				<div class="entry-content">
-					
-<article class="unit-article layout-page">
-	<div class="unit-inner unit-article-inner">
-		<div class="content">
-			<header>
-				<div class="unit-head">
-					<div class="unit-inner unit-head-inner">
-						<h1 class="h2 entry-title">Blog Posts</h1>
-					</div><!-- unit-inner -->
-				</div><!-- unit-head -->
-			</header>
+                <div class="right menu">            
+                    <div class="item">
+                        <div class="ui transparent icon input">
+                            <input type="text" placeholder="Search...">
+                            <i class="search link icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="ui divider"></div>
+        <div class="ui main left aligned container">
+            
+<h1 class="ui header">Blog Posts</h1>
 
-			<div class="bd">
-				<div class="entry-content">
-					
-
-<ul class="posts">
-      
-      <li>
-        <span class="post_title"><a href="/deep%20thoughts/2014/09/28/why-is-it-better-to-learn-more-languages">Why is it better to learn more languages?</a></span><br/>
-        <span class="small">28 Sep 2014</span> &raquo; 
-      </li>
-      <div class="post_excerpt">
-      <p>I have worked in Java for about 7 years and doing the same thing over and over does make the experience boring; a change in interest was inevitable. I have tried multiple programming languages like C, C++, Scala, Python and Ruby but I couldn't find a single language with a philosophy of "Compile once, run everywhere", and now even java does not follow that any more. We'll discuss about this in a later rant.</p> <p>I...
-      </div>
-      <a href="/deep%20thoughts/2014/09/28/why-is-it-better-to-learn-more-languages">Read more...</a><br><br>
-      
-      <li>
-        <span class="post_title"><a href="/welcome/2014/09/21/first-post-welcome-to-my-blog">First Post! Welcome to my Blog.</a></span><br/>
-        <span class="small">21 Sep 2014</span> &raquo; 
-      </li>
-      <div class="post_excerpt">
-      <p>Hi! I am Abhinav, a programmer and tech enthusiast. Programming is my passion and a driving force to improve myself. I havec set up this blog using Jekyll and Bootstrap and I must say, I prefer this system over Wordpress. </p> <p>The first advantage of this system is automatic backup. Well, not exactly automatic but more like you make a post on your pc and then upload it to the site. So a copy of...
-      </div>
-      <a href="/welcome/2014/09/21/first-post-welcome-to-my-blog">Read more...</a><br><br>
-      
-</ul>
-
-
-				</div><!-- entry-content -->
-			</div><!-- bd -->
-
-			<footer class="unit-foot">
-				<div class="unit-inner unit-foot-inner">
-					<p class="gotop">
-						<a href="#page">Back to Top</a>
-					</p>
-				</div>
-			</footer>
-
-		</div><!-- content -->
-	</div><!-- unit-inner -->
-</article>
+<div class="posts">
+    <div class="ui stackable three link cards">
+        
+        <div class="card">
+            <div class="image">
+                <img src="/images/why_is_it_better_to_learn_more_languages.jpg">
+            </div>
+            <div class="content">
+                <div class="header">Why is it better to learn more languages?</div>
+                <div class="ui divider"></div>
+                <div class="description"><p>I have worked in Java for about 7 years and doing the same thing over and over does make the experience boring; a change in interest was inevitable. I have tried multiple programming languages like C, C++, Scala, Python and Ruby but I couldn't find...</div>
+            </div>
+            
+            <div class="extra content">   
+                <div class="ui two buttons">             
+                    <div class="ui green basic button transparent">28 Sep 2014</div>
+                    <button class="ui green button right floated" onclick="location.href='/deep%20thoughts/2014/09/28/why-is-it-better-to-learn-more-languages'">Read More</button>
+                </div>
+            </div>
+        </div>      
+        
+        <div class="card">
+            <div class="image">
+                <img src="/images/first_post_welcome_to_my_blog.jpg">
+            </div>
+            <div class="content">
+                <div class="header">First Post! Welcome to my Blog.</div>
+                <div class="ui divider"></div>
+                <div class="description"><p>Hi! I am Abhinav, a programmer and tech enthusiast. Programming is my passion and a driving force to improve myself. I havec set up this blog using Jekyll and Bootstrap and I must say, I prefer this system over Wordpress. </p> <p>The first advantage of...</div>
+            </div>
+            
+            <div class="extra content">   
+                <div class="ui two buttons">             
+                    <div class="ui green basic button transparent">21 Sep 2014</div>
+                    <button class="ui green button right floated" onclick="location.href='/welcome/2014/09/21/first-post-welcome-to-my-blog'">Read More</button>
+                </div>
+            </div>
+        </div>      
+        
+    </div>
+</div>
 
 
-				</div>
-			</div><!-- unit-inner -->
-		</div><!-- unit-body -->
-	</div><!-- body -->
-	<footer class="the-footer">
-		<div class="unit-foot">
-			<div class="unit-inner unit-foot-inner">
-				<div class="misc vcard">
-					<h4>reach me at</h4>
-					<ul>
-						<li class="github">
-                            <a href="http://github.com/abhinav2004/" rel="me"><img src="/assets/themes/the-program/skin/GitHub_Logo.png" style="width: 200px;">
-                            </a>
-                            <a href="http://twitter.com/abhinav2004/" rel="me">
-                                <img src="/assets/themes/the-program/skin/Twitter_logo_blue.png" style="width: 75px;">
-                            </a>
-                        </li>
-                        <li class="contact"><address><span class="author fn n">Abhinav Hardikar</span> - <span class="fn email">ahardyx@gmail.com</span></address></li>
-						<li class="rss"><a href="http://feeds.feedburner.com/">Subscribe to RSS Feed</a></li>
-                        
-					</ul>
-				</div><!-- misc -->
-				<p class="licence">
-					Theme: <a href="http://layouts-the.me">the_minimum</a> based on <a href="http://jekyllbootstrap.com/">Jekyll-bootstrap</a>.<br>
-					Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a>.
-				</p>
-			</div><!-- unit-foot-inner -->
-		</div><!-- unit-foot -->
-	</footer>
-</div><!-- page -->
-<script>
-	(function(d, s) {
-		var js, fjs = d.getElementsByTagName(s)[0], load = function(url, id) {
-		if (d.getElementById(id)) {return;}
-		js = d.createElement(s); js.src = url; js.id = id;
-		fjs.parentNode.insertBefore(js, fjs);
-		};
-	load('//platform.twitter.com/widgets.js', 'tweetjs');
-	// load('https://apis.google.com/js/plusone.js', 'gplus1js'); // Checkout http://j.mp/ApDgMr for usage html for this is <div class="g-plusone" data-size="medium"></div>
-	// load('//connect.facebook.net/en_US/all.js#xfbml=1', 'fbjssdk'); // Checkout http://j.mp/wZw2xR for using open graph protorol html for this is <div class="fb-like" data-href="/index.html" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false" data-font="verdana"></div>
-	}(document, 'script'));
-</script>
-<script>
-/*! A fix for the iOS orientationchange zoom bug.Script by @scottjehl, rebound by @wilto. MIT License.*/
-(function(j){var i=j.document;if(!i.querySelectorAll){return}var l=i.querySelectorAll("meta[name=viewport]")[0],a=l&&l.getAttribute("content"),h=a+", maximum-scale=1.0",d=a+", maximum-scale=10.0",g=true,c=j.orientation,k=0;if(!l){return}function f(){l.setAttribute("content",d);g=true}function b(){l.setAttribute("content",h);g=false}function e(m){c=Math.abs(j.orientation);k=Math.abs(m.gamma);if(k>8&&c===0){if(g){b()}}else{if(!g){f()}}}j.addEventListener("orientationchange",f,false);j.addEventListener("deviceorientation",e,false)})(this);
-</script>
-  
-  
-</body>
-</html>
 
+        </div>        
+        
+    </body>
+</html>   

@@ -4,7 +4,7 @@
  <title>Abhinav's Blog</title>
  <link href="http://www.abhinavh.com/" rel="self"/>
  <link href="http://www.abhinavh.com"/>
- <updated>2015-08-07T19:59:41+05:30</updated>
+ <updated>2016-03-27T16:52:57+05:30</updated>
  <id>http://www.abhinavh.com</id>
  <author>
    <name>Abhinav Hardikar</name>
@@ -53,9 +53,9 @@
 
 &lt;p&gt;The first advantage of this system is automatic backup. Well, not exactly automatic but more like you make a post on your pc and then upload it to the site. So a copy of the site is always present on your computer. &lt;/p&gt;
 
-&lt;p&gt;The second advantage: NO FREAKING DATABASES BS. It’s static. I love it.&lt;/p&gt;
+&lt;p&gt;The second advantage: NO FREAKING DATABASES BS. It is static. I love it.&lt;/p&gt;
 
-&lt;p&gt;So here I am with my MacBook trying to think what my second post would be. May be I’ll write a tutorial on how to setup your own static website over at GitHub with the help of Jekyll and Bootstrap. &lt;/p&gt;
+&lt;p&gt;So here I am with my MacBook trying to think what my second post would be. May be I will write a tutorial on how to setup your own static website over at GitHub with the help of Jekyll and Bootstrap. &lt;/p&gt;
 
 &lt;p&gt;Oh yeah one more thing. Stay tuned for various tutorials on topics like Raspberry Pi HTPC, C# WinForms is BS (WPF FTW) and lots of Java/Python stuff. &lt;/p&gt;
 

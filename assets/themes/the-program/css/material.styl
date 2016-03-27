@@ -1,0 +1,71 @@
+/* Mixins */
+
+linear-gradient-background(top, bottom)
+    background: -webkit-linear-gradient(top, bottom) !important
+    background: -moz-linear-gradient(top, bottom) !important
+    background: linear-gradient(top, bottom) !important
+    
+border-radius()
+    -webkit-border-radius arguments
+    -moz-border-radius arguments
+    border-radius arguments
+
+
+/* Variables */
+
+navbar-top-gradient = rgb(0, 160, 5)
+navbar-bottom-gradient = rgb(105, 92, 0)
+navbar-border-radius = 0px 0px 6px 6px
+navbar-padding = 0px 10px 10px 10px
+
+image-location = '/assets/themes/the-program/img/grey.png'
+
+title-top-gradient = #E2AB00
+title-bottom-gradient = #CA8200
+
+/* Styles */
+
+.topnavbarcontainer    
+    padding navbar-padding
+    background-color transparent !important
+
+.topnavbar
+    box-shadow 0px 0px 5px #555
+    border-radius navbar-border-radius
+    linear-gradient-background(navbar-top-gradient, navbar-bottom-gradient)
+    
+#bodyContainer
+    background url(image-location)
+    
+#page
+    background url(image-location)
+    display flex
+    flex-direction column
+    @media (min-width: 768px)
+        flex-direction row
+    
+.body
+    margin 20px    
+    flex 1
+    @media (min-width: 768px)
+        flex 1
+        margin 20px
+        border-radius 6px
+        
+.the-footer
+    flex 1
+    @media (min-width: 768px)
+        flex 0 0 24em
+
+.content
+    background-color white
+    box-shadow 0px 0px 5px #aaa
+    border-radius 6px
+    .unit-head-inner
+        .entry-title
+            border-radius 6px 6px 0px 0px
+            padding 10px   
+            border-bottom 1px #aaa solid
+            margin 0
+    .posts
+        border-top 1px #ddd solid

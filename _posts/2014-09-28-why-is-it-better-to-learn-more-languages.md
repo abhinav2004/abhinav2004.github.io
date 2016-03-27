@@ -4,6 +4,7 @@ title: "Why is it better to learn more languages?"
 description: ""
 category: Deep Thoughts
 tags: [java, python, c, c++, scala, change]
+img: "why_is_it_better_to_learn_more_languages.jpg"
 ---
 {% include JB/setup %}
 <p>I have worked in Java for about 7 years and doing the same thing over and over does make the experience boring; a change in interest was inevitable. I have tried multiple programming languages like C, C++, Scala, Python and Ruby but I couldn't find a single language with a philosophy of "Compile once, run everywhere", and now even java does not follow that any more. We'll discuss about this in a later rant.</p>

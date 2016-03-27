@@ -3,19 +3,29 @@ layout: page
 title: Blog Posts
 ---
 {% include JB/setup %}
-
-<ul class="posts">
-      {% for post in paginator.posts %}
-      <li>
-        <span class="post_title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></span><br/>
-        <span class="small">{{ post.date | date_to_string }}</span> &raquo; 
-      </li>
-      <div class="post_excerpt">
-      {{ post.content | post.excerpt | truncatewords:75}}
-      </div>
-      <a href="{{ post.url }}">Read more...</a><br><br>
-      {% endfor %}
-</ul>
+<div class="posts">
+    <div class="ui stackable three link cards">
+        {% for post in paginator.posts %}
+        <div class="card">
+            <div class="image">
+                <img src="/images/{{ post.img }}">
+            </div>
+            <div class="content">
+                <div class="header">{{ post.title }}</div>
+                <div class="ui divider"></div>
+                <div class="description">{{ post.content | post.excerpt | truncatewords:45}}</div>
+            </div>
+            
+            <div class="extra content">   
+                <div class="ui two buttons">             
+                    <div class="ui green basic button transparent">{{ post.date | date_to_string }}</div>
+                    <button class="ui green button right floated" onclick="location.href='{{ BASE_PATH }}{{ post.url }}'">Read More</button>
+                </div>
+            </div>
+        </div>      
+        {% endfor %}
+    </div>
+</div>
 
 {% if paginator.total_pages > 1 %}
 <div class="pagination">

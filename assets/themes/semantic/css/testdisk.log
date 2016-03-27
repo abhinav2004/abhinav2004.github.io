@@ -1,0 +1,275 @@
+
+
+Sun Mar 27 12:50:57 2016
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Darwin, kernel 14.3.0 (Darwin Kernel Version 14.3.0: Mon Mar 23 11:59:05 PDT 2015; root:xnu-2782.2
+Compiler: GCC 4.2
+Compilation date: 2015-04-20T09:39:14
+ext2fs lib: none, ntfs lib: none, reiserfs lib: none, ewf lib: none, curses lib: ncurses 5.7
+Hard disk list
+Disk /dev/disk0 - 251 GB / 233 GiB - 490234752 sectors (RO), sector size=512
+Disk /dev/disk2 - 1914 GB / 1782 GiB - 3738538552 sectors (RO), sector size=512
+Disk /dev/disk3 - 8076 MB / 7702 MiB - 15773696 sectors (RO), sector size=512
+Disk /dev/rdisk0 - 251 GB / 233 GiB - 490234752 sectors (RO), sector size=512
+Disk /dev/rdisk2 - 1914 GB / 1782 GiB - 3738538552 sectors (RO), sector size=512
+Disk /dev/rdisk3 - 8076 MB / 7702 MiB - 15773696 sectors (RO), sector size=512
+
+Partition table type (auto): Intel
+Media is opened in read-only.
+Disk /dev/disk3 - 8076 MB / 7702 MiB (RO)
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=1 sector=1
+NTFS at 2/0/1
+heads/cylinder 255 (NTFS) != 1 (HD)
+sect/track 63 (NTFS) != 1 (HD)
+get_geometry_from_list_part_aux head=1 nbr=2
+ 1 * HPFS - NTFS                    2   15773695   15773694
+     NTFS, blocksize=4096, 8076 MB / 7701 MiB
+
+Analyse Disk /dev/disk3 - 8076 MB / 7702 MiB - 15773696 sectors (RO)
+Geometry from i386 MBR: head=1 sector=1
+NTFS at 2/0/1
+heads/cylinder 255 (NTFS) != 1 (HD)
+sect/track 63 (NTFS) != 1 (HD)
+get_geometry_from_list_part_aux head=1 nbr=2
+Current partition structure:
+Warning: number of heads/cylinder mismatches 255 (NTFS) != 1 (HD)
+Warning: number of sectors per track mismatches 63 (NTFS) != 1 (HD)
+ 1 * HPFS - NTFS                    2   15773695   15773694
+
+search_part()
+Disk /dev/disk3 - 8076 MB / 7702 MiB - 15773696 sectors (RO)
+NTFS at 2/0/1
+heads/cylinder 255 (NTFS) != 1 (HD)
+sect/track 63 (NTFS) != 1 (HD)
+filesystem size           15773694
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+NTFS part_offset=1024, part_size=8076131328, sector_size=512
+NTFS partition cannot be added (part_offset<part_size).
+NTFS at 2/0/1
+heads/cylinder 255 (NTFS) != 1 (HD)
+sect/track 63 (NTFS) != 1 (HD)
+filesystem size           15773694
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+     HPFS - NTFS                    2   15773695   15773694
+     NTFS, blocksize=4096, 8076 MB / 7701 MiB
+get_geometry_from_list_part_aux head=1 nbr=2
+
+Results
+   * HPFS - NTFS                    2   15773695   15773694
+     NTFS, blocksize=4096, 8076 MB / 7701 MiB
+Not an exFAT boot sector.
+
+   * HPFS - NTFS                    2   15773695   15773694
+     NTFS, blocksize=4096, 8076 MB / 7701 MiB
+Support for this filesystem hasn't been enable during compilation.
+
+interface_write()
+ 1 * HPFS - NTFS                    2   15773695   15773694
+
+search_part()
+Disk /dev/disk3 - 8076 MB / 7702 MiB - 15773696 sectors (RO)
+NTFS at 2/0/1
+heads/cylinder 255 (NTFS) != 1 (HD)
+sect/track 63 (NTFS) != 1 (HD)
+filesystem size           15773694
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+NTFS part_offset=1024, part_size=8076131328, sector_size=512
+NTFS partition cannot be added (part_offset<part_size).
+NTFS at 2/0/1
+heads/cylinder 255 (NTFS) != 1 (HD)
+sect/track 63 (NTFS) != 1 (HD)
+filesystem size           15773694
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+     HPFS - NTFS                    2   15773695   15773694
+     NTFS, blocksize=4096, 8076 MB / 7701 MiB
+BAD_RS LBA=1600915350 322
+check_FAT: can't read FAT boot sector
+check_part_i386 failed for partition type 01
+     FAT12                 1600915350 3140644882 1539729533
+This partition ends after the disk limits. (start=1600915350, size=1539729533, end=3140644882, disk end=15773696)
+BAD_RS LBA=4095766667 1161
+check_FAT: can't read FAT boot sector
+check_part_i386 failed for partition type 0E
+     FAT16 LBA             4095766667 7071940278 2976173612
+This partition ends after the disk limits. (start=4095766667, size=2976173612, end=7071940278, disk end=15773696)
+BAD_RS LBA=673990764 349
+check_part_i386 failed for partition type 07
+     HPFS - NTFS            673990764 3573732937 2899742174
+This partition ends after the disk limits. (start=673990764, size=2899742174, end=3573732937, disk end=15773696)
+BAD_RS LBA=4102571555 1161
+check_FAT: can't read FAT boot sector
+check_part_i386 failed for partition type 0E
+     FAT16 LBA             4102571555 7078745166 2976173612
+This partition ends after the disk limits. (start=4102571555, size=2976173612, end=7078745166, disk end=15773696)
+BAD_RS LBA=1614771574 322
+check_FAT: can't read FAT boot sector
+check_part_i386 failed for partition type 01
+     FAT12                 1614771574 3154501106 1539729533
+This partition ends after the disk limits. (start=1614771574, size=1539729533, end=3154501106, disk end=15773696)
+NTFS at 15773695/0/1
+heads/cylinder 255 (NTFS) != 1 (HD)
+sect/track 63 (NTFS) != 1 (HD)
+filesystem size           15773694
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+     HPFS - NTFS                    2   15773695   15773694
+     NTFS found using backup sector, blocksize=4096, 8076 MB / 7701 MiB
+Disk /dev/disk3 - 8076 MB / 7702 MiB - 15773696 sectors (RO)
+Check the harddisk size: HD jumpers settings, BIOS detection...
+The harddisk (8076 MB / 7702 MiB) seems too small! (< 3624 GB / 3375 GiB)
+The following partitions can't be recovered:
+     HPFS - NTFS            673990764 3573732937 2899742174
+     FAT12                 1600915350 3140644882 1539729533
+     FAT12                 1614771574 3154501106 1539729533
+     FAT16 LBA             4095766667 7071940278 2976173612
+     FAT16 LBA             4102571555 7078745166 2976173612
+get_geometry_from_list_part_aux head=1 nbr=2
+
+Results
+   * HPFS - NTFS                    2   15773695   15773694
+     NTFS, blocksize=4096, 8076 MB / 7701 MiB
+Not an exFAT boot sector.
+
+   * HPFS - NTFS                    2   15773695   15773694
+     NTFS, blocksize=4096, 8076 MB / 7701 MiB
+Support for this filesystem hasn't been enable during compilation.
+
+interface_write()
+ 1 * HPFS - NTFS                    2   15773695   15773694
+write!
+
+write_mbr_i386: starting...
+file_nopwrite(6,1,buffer,0(0/0/1)) write refused
+write_all_log_i386: starting...
+No extended partition
+
+Partition: Write error
+
+Analyse Disk /dev/disk3 - 8076 MB / 7702 MiB - 15773696 sectors (RO)
+Geometry from i386 MBR: head=1 sector=1
+NTFS at 2/0/1
+heads/cylinder 255 (NTFS) != 1 (HD)
+sect/track 63 (NTFS) != 1 (HD)
+get_geometry_from_list_part_aux head=1 nbr=2
+Current partition structure:
+Warning: number of heads/cylinder mismatches 255 (NTFS) != 1 (HD)
+Warning: number of sectors per track mismatches 63 (NTFS) != 1 (HD)
+ 1 * HPFS - NTFS                    2   15773695   15773694
+
+search_part()
+Disk /dev/disk3 - 8076 MB / 7702 MiB - 15773696 sectors (RO)
+NTFS at 2/0/1
+heads/cylinder 255 (NTFS) != 1 (HD)
+sect/track 63 (NTFS) != 1 (HD)
+filesystem size           15773694
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+NTFS part_offset=1024, part_size=8076131328, sector_size=512
+NTFS partition cannot be added (part_offset<part_size).
+NTFS at 2/0/1
+heads/cylinder 255 (NTFS) != 1 (HD)
+sect/track 63 (NTFS) != 1 (HD)
+filesystem size           15773694
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+     HPFS - NTFS                    2   15773695   15773694
+     NTFS, blocksize=4096, 8076 MB / 7701 MiB
+get_geometry_from_list_part_aux head=1 nbr=2
+
+Results
+   * HPFS - NTFS                    2   15773695   15773694
+     NTFS, blocksize=4096, 8076 MB / 7701 MiB
+
+interface_write()
+ 1 * HPFS - NTFS                    2   15773695   15773694
+write!
+
+write_mbr_i386: starting...
+file_nopwrite(6,1,buffer,0(0/0/1)) write refused
+write_all_log_i386: starting...
+No extended partition
+
+Partition: Write error
+
+Analyse Disk /dev/disk3 - 8076 MB / 7702 MiB - 15773696 sectors (RO)
+Geometry from i386 MBR: head=1 sector=1
+NTFS at 2/0/1
+heads/cylinder 255 (NTFS) != 1 (HD)
+sect/track 63 (NTFS) != 1 (HD)
+get_geometry_from_list_part_aux head=1 nbr=2
+Current partition structure:
+Warning: number of heads/cylinder mismatches 255 (NTFS) != 1 (HD)
+Warning: number of sectors per track mismatches 63 (NTFS) != 1 (HD)
+ 1 * HPFS - NTFS                    2   15773695   15773694
+
+search_part()
+Disk /dev/disk3 - 8076 MB / 7702 MiB - 15773696 sectors (RO)
+NTFS at 2/0/1
+heads/cylinder 255 (NTFS) != 1 (HD)
+sect/track 63 (NTFS) != 1 (HD)
+filesystem size           15773694
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+NTFS part_offset=1024, part_size=8076131328, sector_size=512
+NTFS partition cannot be added (part_offset<part_size).
+NTFS at 2/0/1
+heads/cylinder 255 (NTFS) != 1 (HD)
+sect/track 63 (NTFS) != 1 (HD)
+filesystem size           15773694
+sectors_per_cluster       8
+mft_lcn                   786432
+mftmirr_lcn               2
+clusters_per_mft_record   -10
+clusters_per_index_record 1
+     HPFS - NTFS                    2   15773695   15773694
+     NTFS, blocksize=4096, 8076 MB / 7701 MiB
+get_geometry_from_list_part_aux head=1 nbr=2
+
+Results
+   * HPFS - NTFS                    2   15773695   15773694
+     NTFS, blocksize=4096, 8076 MB / 7701 MiB
+
+interface_write()
+ 1 * HPFS - NTFS                    2   15773695   15773694
+simulate write!
+
+write_mbr_i386: starting...
+write_all_log_i386: starting...
+No extended partition
+
+TestDisk exited normally.

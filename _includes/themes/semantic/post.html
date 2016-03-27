@@ -1,0 +1,15 @@
+<div class="ui menu">    
+    <a class="active blue item" href="/"><i class="home icon"></i>Go Back to Blog Posts</a>
+    <a class="item" href="{{page.next.url}}"><i class="angle left icon"></i>Previous Post</a>
+    <div class="right menu">
+        <a class="item" href="{{page.previous.url}}">Next Post<i class="angle right icon"></i></a>
+    </div>        
+</div>
+<div class="ui segment piled post-container">
+    <h1 class=" post-header ui header">{{ page.title }}</h1>
+    <div class="ui divider"></div>
+    <div class="post-body">
+        {{ content }}
+    </div>    
+</div>
+{% include JB/comments %}

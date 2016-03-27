@@ -1,0 +1,68 @@
+/* Mixins */
+/* Variables */
+/* Styles */
+.topnavbarcontainer {
+  padding: 0px 10px 10px 10px;
+  background-color: transparent !important;
+}
+.topnavbar {
+  box-shadow: 0px 0px 5px #555;
+  -webkit-border-radius: 0px 0px 6px 6px;
+  -moz-border-radius: 0px 0px 6px 6px;
+  border-radius: 0px 0px 6px 6px;
+  background: -webkit-linear-gradient(#00a005, #695c00) !important;
+  background: -moz-linear-gradient(#00a005, #695c00) !important;
+  background: linear-gradient(#00a005, #695c00) !important;
+}
+#bodyContainer {
+  background: url("/assets/themes/the-program/img/grey.png");
+}
+#page {
+  background: url("/assets/themes/the-program/img/grey.png");
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  #page {
+    flex-direction: row;
+  }
+}
+.body {
+  margin: 20px;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .body {
+    flex: 1;
+    margin: 20px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+  }
+}
+.the-footer {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .the-footer {
+    flex: 0 0 24em;
+  }
+}
+.content {
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #aaa;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.content .unit-head-inner .entry-title {
+  -webkit-border-radius: 6px 6px 0px 0px;
+  -moz-border-radius: 6px 6px 0px 0px;
+  border-radius: 6px 6px 0px 0px;
+  padding: 10px;
+  border-bottom: 1px #aaa solid;
+  margin: 0;
+}
+.content .posts {
+  border-top: 1px #ddd solid;
+}
