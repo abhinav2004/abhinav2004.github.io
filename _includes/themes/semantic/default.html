@@ -5,11 +5,7 @@
         <link rel="stylesheet" type="text/css" href="{{ ASSET_PATH }}semantic/css/style.css"></link>
         <script src="https://code.jquery.com/jquery-2.2.2.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script>
         <script src="{{ ASSET_PATH }}semantic/js/semantic.min.js"></script>
-        <script>
-            $(document).on("ready", () => {
-                $('.ui.dropdown').dropdown();
-            });            
-        </script>
+        <script src="{{ ASSET_PATH }}semantic/js/script.js"></script>
     </head>
     <body>        
         {% include themes/semantic/header.html %}
